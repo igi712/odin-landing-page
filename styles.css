@@ -20,14 +20,23 @@ body {
     flex-direction: column;
     align-items: stretch;
     justify-content: center;
-    padding: 0 15% 128px;
     gap: 96px;
+}
+
+.hero, .information, .quote {
+    padding: 0 15% 128px;
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 ul {
@@ -82,10 +91,34 @@ button {
     font-size: 18px;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
 .information h2 {
     color: #1F2937;
     font-weight: 900;
     font-size: 36px;
+    text-align: center;
+}
+
+.info-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-image img {
+    border: 5px solid #3882F6;
+    border-radius: 10%;
+    width: 250px;
+    height: 250px;
+}
+
+.info-image figcaption {
+    text-align: center;
+    width: 250px;
 }
 
 .quote {
